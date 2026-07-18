@@ -22,7 +22,7 @@ RUN if [ -n "$KEY" ]; then \
     fi
 
 
-FROM nginx:1.21.6
+FROM nginx:1.31.3
 
 EXPOSE 8080
 
